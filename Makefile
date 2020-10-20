@@ -50,4 +50,8 @@ run: all
 	gcc main.c -L. -lasm
 	./a.out
 
+runbonus: bonus
+	gcc main_bonus.c -L. -lasm
+	./a.out
+
 .PHONY: all clean fclean re run
